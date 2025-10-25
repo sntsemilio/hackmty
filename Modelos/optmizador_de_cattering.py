@@ -1,12 +1,3 @@
-"""
-Sistema Integral de Optimización para Airline Catering
-Módulo con funciones matemáticas clave para optimización de catering aéreo.
-
-Author: AI Assistant
-Date: 2025-10-25
-Python Version: 3.8+
-"""
-
 import math
 from typing import Dict, List
 import numpy as np
