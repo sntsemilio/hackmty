@@ -329,7 +329,7 @@ class SistemaFuncionalEstable:
                 try:
                     cv2.imshow(ventana, frame_display)
                 except cv2.error as e:
-                    print(f"⚠ Error mostrando frame: {e}")
+                    print(f" Error mostrando frame: {e}")
                     break
                 
                 self.frames_procesados += 1
@@ -338,7 +338,7 @@ class SistemaFuncionalEstable:
                 key = cv2.waitKey(10) & 0xFF  # 10ms en lugar de 1ms para mayor estabilidad
                 
                 if key == ord('q'):
-                    print("\n✓ Finalizando por petición del usuario...")
+                    print("\n Finalizando por petición del usuario...")
                     self.sesion_activa = False
                 elif key == ord('h'):
                     self.mostrar_ayuda = not self.mostrar_ayuda
@@ -694,7 +694,7 @@ def main():
             print(f"✓ Guardado: {ruta}\n")
         
     except Exception as e:
-        print(f"\n❌ ERROR: {e}\n")
+        print(f"\n ERROR: {e}\n")
         import traceback
         traceback.print_exc()
 
