@@ -1,0 +1,33 @@
+{
+  "sesion_id": "20251025_233733",
+  "fecha_inicio": "2025-10-25T23:37:44.050003",
+  "duracion_sesion_seg": 67.22,
+  "conteo_total_items": 21,
+  "tasa_items_por_minuto": 18.75,
+  "fps_promedio": 10.22,
+  "frames_procesados": 547,
+  "fuente_video": "webcam_0",
+  "timestamps_items": [
+    5.93,
+    8.74,
+    10.87,
+    13.34,
+    17.52,
+    20.4,
+    22.63,
+    25.78,
+    31.55,
+    36.79,
+    39.39,
+    41.49,
+    43.89,
+    45.88,
+    47.75,
+    49.73,
+    53.77,
+    55.57,
+    57.81,
+    59.56,
+    61.33
+  ]
+}
